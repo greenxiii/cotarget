@@ -109,6 +109,14 @@ a:hover {
 .desktop-hide {
   display: none;
 }
+#error1,
+#error2 {
+  color: #ee2233;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 8px;
+  font-size: 12px;
+}
 .main-logo {
   margin: 25px 0 63px 0;
   font-size: 24px;

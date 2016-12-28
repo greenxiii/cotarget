@@ -16,7 +16,7 @@
 				<div class="title">
 					Secure your early bird place & get 2 months <b>free</b>.
 				</div>
-				<form>
+				<form onSubmit="return checkForm(this);" class="first-form">
 					<div class="form-group">      
 						<input type="text" name="email" required>
 						<span class="highlight"></span>
@@ -30,11 +30,12 @@
 						<label>Company Name</label>
 					</div>
 					<div class="form-group">      
-						<input type="text" name="email" required>
-						<span class="highlight" name="targetAudience"></span>
+						<input type="text" name="targetAudience" required>
+						<span class="highlight"></span>
 						<span class="bar"></span>
 						<label>Target Audience (i.e Hotels, Restaurants, etc.)</label>
 					</div>
+					<div id="error1"></div>
 					<button type="submit">Sign up</button>
 				</form>
 				<div class="arrow-quote">
@@ -78,7 +79,7 @@
 				<div class="title">
 					Secure your early bird place & get 2 months <b>free</b>.
 				</div>
-				<form>
+				<form onSubmit="return checkForm(this);" class="second-form">
 					<div class="form-group">      
 						<input type="text" name="email" required>
 						<span class="highlight"></span>
@@ -92,11 +93,12 @@
 						<label>Company Name</label>
 					</div>
 					<div class="form-group">      
-						<input type="text" name="email" required>
-						<span class="highlight" name="targetAudience"></span>
+						<input type="text" name="targetAudience" required>
+						<span class="highlight"></span>
 						<span class="bar"></span>
 						<label>Target Audience (i.e Hotels, Restaurants, etc.)</label>
 					</div>
+					<div id="error2"></div>
 					<button type="submit">Sign up</button>
 				</form>
 			</div>
@@ -105,5 +107,7 @@
 		<hr/>
 		<p class="copy">2016, all rights reserved. cotarget.</p>
 	</div>
+
+	<script src="scripts/main.js"></script>
 </body>
 </html>
