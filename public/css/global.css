@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Handlee');
+html {
+  height: 100%;
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: 'Open Sans Light';
+}
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover {
+  outline: 0px !important;
+}
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+  font-family: 'Open Sans', serif;
+  background-position: center 0;
+  background-size: 2000px auto;
+  background: #03cea4;
+}
+/*	Apply to all elements. In a responsive design, this is almost always a good idea */
+* {
+  box-sizing: border-box;
+}
+/* ==========================================================================
+	Typography
+/* ========================================================================== */
+/* Headers */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 16px;
+  font-family: 'Open Sans', serif;
+  line-height: 1.2em;
+  font-weight: 300;
+}
+h1 {
+  font-size: 34px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 1.3rem;
+}
+h4 {
+  font-size: 1.3rem;
+  font-weight: normal;
+}
+h5,
+h6 {
+  font-size: 1.1rem;
+}
+ul {
+  margin: 0;
+}
+/* Selection Colors */
+::-moz-selection {
+  text-shadow: none;
+}
+::selection {
+  text-shadow: none;
+}
+/* ==========================================================================
+	Links
+/* ========================================================================== */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:focus {
+  outline: 0;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+.w3eden .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+.minimax_module p {
+  padding: 0;
+  margin: 0;
+}
+.clear {
+  clear: both;
+}
+.desktop-hide {
+  display: none;
+}
+.main-logo {
+  margin: 25px 0 63px 0;
+  font-size: 24px;
+  text-align: center;
+  display: block;
+}
+.content {
+  width: 770px;
+  margin: 0 auto;
+}
+.first-block {
+  display: block;
+}
+.first-block h1 {
+  text-align: center;
+  margin-bottom: 73px;
+}
+.first-block span.after-panel {
+  margin: 22px auto 50px;
+  display: block;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  width: 445.5px;
+}
+.second-block {
+  display: block;
+  background: #556270;
+  padding: 100px 0 100px;
+}
+.second-block h2 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.second-block span {
+  width: 550px;
+  font-family: 'Open Sans', serif;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+  color: #f1f1f1;
+  display: block;
+  margin: 54px auto 0;
+}
+.third-block {
+  padding: 100px 0 100px;
+  background: #697888;
+}
+.third-block h2 {
+  text-align: center;
+  margin-bottom: 18px;
+}
+.third-block .block {
+  margin: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.third-block .block .text {
+  padding-left: 26px;
+  height: 64px;
+  width: 600px;
+  font-family: 'Open Sans', serif;
+  font-size: 18px;
+  line-height: 1.78;
+  color: #f1f1f1;
+}
+.third-block .block .icon {
+  width: 70px;
+  height: 64px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.third-block .block .icon.search {
+  background-image: url('../images/search-icon.svg');
+}
+.third-block .block .icon.check {
+  background-image: url('../images/check-icon.svg');
+}
+.third-block .block .icon.dash {
+  background-image: url('../images/dashboard-icon.svg');
+}
+.fourth-block {
+  padding: 100px 0 20px;
+  background: #39434e;
+}
+.fourth-block h2 {
+  text-align: center;
+  height: 30px;
+  font-family: Handlee;
+  font-size: 33px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 0.91;
+  color: #f0f0f0;
+  margin-bottom: 44px;
+}
+.fourth-block span.after-panel {
+  margin: 22px auto 50px;
+  display: block;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  width: 445.5px;
+}
+.fourth-block .copy {
+  height: 19px;
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+.main-logo a {
+  color: #fff;
+  position: relative;
+}
+.main-logo a:after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url('../images/logo-arrow.svg') center no-repeat;
+  right: -27px;
+  top: 8px;
+}
+.panel {
+  width: 460px;
+  border-radius: 20px;
+  background: #fff;
+  margin: 0 auto;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.panel .title {
+  line-height: 72px;
+  height: 72px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #697888;
+  text-align: center;
+}
+.panel form {
+  padding: 24px 50px;
+}
+.panel form .form-group {
+  position: relative;
+  margin-bottom: 28px;
+}
+.panel form input {
+  font-size: 18px;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #556270;
+}
+.panel form input:focus {
+  outline: none;
+}
+.panel form label {
+  color: #697888;
+  font-size: 14px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  -webkit-transition: 0.2s ease all;
+          transition: 0.2s ease all;
+}
+.panel form input:focus ~ label,
+.panel form input:valid ~ label {
+  top: -10px;
+  font-size: 12px;
+  color: #03cea4;
+}
+.panel form .bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+.panel form .bar:before,
+.panel form .bar:after {
+  content: '';
+  height: 1px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #03cea4;
+  -webkit-transition: 0.2s ease all;
+          transition: 0.2s ease all;
+  bottom: 0;
+}
+.panel form .bar:before {
+  left: 50%;
+}
+.panel form .bar:after {
+  right: 50%;
+}
+.panel form input:focus ~ .bar:before,
+.panel form input:focus ~ .bar:after {
+  width: 50%;
+}
+.panel form button {
+  border: 0;
+  width: 100%;
+  height: 42px;
+  border-radius: 10px;
+  background-color: #03cea4;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-family: 'Open Sans', serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+.panel form button:hover {
+  background: #0de6b9;
+}
+.panel .arrow-quote {
+  position: absolute;
+  right: -200px;
+  top: 40px;
+}
+.panel .arrow-quote p {
+  margin: 13px 0;
+  width: 158px;
+  height: 72px;
+  font-family: Handlee;
+  font-size: 30px;
+  line-height: 1.2;
+  text-align: center;
+  color: #ffffff;
+  padding: 0;
+}
+.panel .arrow-quote .arrow {
+  width: 91px;
+  height: 52px;
+  background: url('../images/arrow.svg') center no-repeat;
+}
+hr {
+  width: 306px;
+  height: 1px;
+  opacity: 0.5;
+  background-color: #fff;
+}
