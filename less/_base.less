@@ -1,0 +1,121 @@
+html {
+	height: 100%;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+	font-family: @secondaryFontLight;
+	//appearance:none;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover
+{
+    outline:0px !important;
+    //-webkit-appearance:none;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	font-size: @baseSize;
+	line-height: 1.4;
+	color: @baseColor;
+	font-family: @mainFont;
+	background-position: center 0;
+	background-size: 2000px auto;
+	background: @mainBg;
+}
+/*	Apply to all elements. In a responsive design, this is almost always a good idea */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* ==========================================================================
+	Typography
+/* ========================================================================== */
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 @baseSize;
+	font-family: @mainFont;
+	font-weight: 300;
+	line-height: 1.2em;
+	font-weight: 300;
+}
+h1 {
+	font-size: 34px;
+}
+h2 {
+	font-size: 28px;
+}
+h3 {
+	font-size: 1.3rem;
+}
+h4 {
+	font-size: 1.3rem;
+	font-weight: normal;
+}
+h5, h6 {
+	font-size: 1.1rem;
+}
+
+ul{margin: 0;}
+
+/* Selection Colors */
+::-moz-selection {
+	//background: @red;
+	//color: @black;
+	text-shadow: none;
+}
+::selection {
+	//background: @red;
+	//color: @black;
+	text-shadow: none;
+}
+
+/* ==========================================================================
+	Links
+/* ========================================================================== */
+a {
+	text-decoration: none;
+	cursor: pointer;
+}
+a:focus,
+a:hover {
+}
+a:focus {
+	outline: 0;
+}
+a:active,
+a:hover {
+	outline: 0;
+}
+
+
+.w3eden .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.minimax_module p{padding: 0; margin: 0;}
+
+.clear{clear: both}
+
+.desktop-hide{
+	display: none;
+}
