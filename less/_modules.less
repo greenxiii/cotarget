@@ -55,17 +55,18 @@
   	input:focus ~ label, input:valid ~ label {
   	  top: -10px;
   	  font-size: 12px;
-  	  color: @thirdyBg;
+  	  color: @mainBg;
   	}
   	.bar 	{ position: relative; display: block; width: 100%; }
   	.bar:before, .bar:after {
   	  content: '';
-  	  height: 2px; 
+  	  height: 1px; 
   	  width: 0;
   	  bottom: 1px; 
   	  position: absolute;
-  	  background: @thirdyBg; 
-  	  transition: 0.2s ease all; 
+  	  background: @mainBg; 
+  	  transition: 0.2s ease all;
+      bottom: 0;
   	}
   	.bar:before {
   	  left: 50%;
@@ -86,6 +87,10 @@
   		color: @baseColor;
   		font-family: @mainFont;
   		font-size: 14px;
+      cursor: pointer;
+      &:hover {
+        background: #0de6b9;
+      }
   	}
   }
   .arrow-quote {
