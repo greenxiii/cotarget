@@ -120,6 +120,8 @@ a:hover {
   margin: 0 auto;
 }
 .first-block {
+  background: url('../images/balloon-lg.svg') 20% 40px, url('../images/balloon-sm.svg') 69% 95%;
+  background-repeat: no-repeat;
   display: block;
 }
 .first-block h1 {
@@ -136,8 +138,10 @@ a:hover {
 }
 .second-block {
   display: block;
-  background: #556270;
   padding: 100px 0 100px;
+  background: url('../images/balloon-sm.svg') 20% 40px, url('../images/balloon-lg.svg') 83% 180px;
+  background-repeat: no-repeat;
+  background-color: #556270;
 }
 .second-block h2 {
   text-align: center;
@@ -155,7 +159,9 @@ a:hover {
 }
 .third-block {
   padding: 100px 0 100px;
-  background: #697888;
+  background: url('../images/balloon-sm.svg') 83% 80px, url('../images/balloon-md.svg') 10% 220px, url('../images/balloon-lg.svg') 88% 320px;
+  background-repeat: no-repeat;
+  background-color: #697888;
 }
 .third-block h2 {
   text-align: center;
@@ -194,7 +200,9 @@ a:hover {
 }
 .fourth-block {
   padding: 100px 0 20px;
-  background: #39434e;
+  background: url('../images/balloon-md.svg') 26% 130px, url('../images/balloon-lg.svg') 80% 320px;
+  background-repeat: no-repeat;
+  background-color: #39434e;
 }
 .fourth-block h2 {
   text-align: center;

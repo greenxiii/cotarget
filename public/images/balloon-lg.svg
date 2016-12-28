@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="247px" height="326px" viewBox="0 0 247 326" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>622F2FE9-37FD-493C-A4F0-56325A151AF5</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M145.954545,277 C185.707571,242.05827 247,159.482952 247,112.53125 C247,50.3819567 191.707167,0 123.5,0 C55.2928334,0 0,50.3819567 0,112.53125 C0,162.127506 60.5576843,242.609437 101.045455,277 L145.954545,277 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="247" height="277" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <path d="M123,0 C167.744021,8.36738155 202,55.2096111 202,111.741644 L202,111.741644 C202,158.918759 157.361617,241.890517 127.309091,277" id="path-3"></path>
+        <mask id="mask-4" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="79" height="277" fill="white">
+            <use xlink:href="#path-3"></use>
+        </mask>
+        <path d="M123,0 C142.25692,8.36738155 157,55.2096111 157,111.741644 L157,111.741644 C157,158.918759 137.788544,241.890517 124.854545,277" id="path-5"></path>
+        <mask id="mask-6" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="34" height="277" fill="white">
+            <use xlink:href="#path-5"></use>
+        </mask>
+        <path d="M90,0 C109.25692,8.36738155 124,55.2096111 124,111.741644 L124,111.741644 C124,158.918759 104.788544,241.890517 91.8545455,277" id="path-7"></path>
+        <mask id="mask-8" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="34" height="277" fill="white">
+            <use xlink:href="#path-7"></use>
+        </mask>
+        <path d="M45,0 C89.7440209,8.36738155 124,55.2096111 124,111.741644 L124,111.741644 C124,158.918759 79.3616173,241.890517 49.3090909,277" id="path-9"></path>
+        <mask id="mask-10" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="79" height="277" fill="white">
+            <use xlink:href="#path-9"></use>
+        </mask>
+        <rect id="path-11" x="97" y="292" width="52" height="34"></rect>
+        <mask id="mask-12" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="52" height="34" fill="white">
+            <use xlink:href="#path-11"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.3">
+        <g id="landing-page" transform="translate(-796.000000, -154.000000)" stroke="#FFFFFF">
+            <g id="Group-Copy-21" transform="translate(796.000000, 154.000000)">
+                <use id="Combined-Shape" mask="url(#mask-2)" stroke-width="2" xlink:href="#path-1"></use>
+                <use id="Combined-Shape" mask="url(#mask-4)" stroke-width="2" xlink:href="#path-3"></use>
+                <use id="Combined-Shape-Copy-2" mask="url(#mask-6)" stroke-width="2" xlink:href="#path-5"></use>
+                <use id="Combined-Shape-Copy-3" mask="url(#mask-8)" stroke-width="2" transform="translate(107.000000, 138.500000) scale(-1, 1) translate(-107.000000, -138.500000) " xlink:href="#path-7"></use>
+                <use id="Combined-Shape-Copy" mask="url(#mask-10)" stroke-width="2" transform="translate(84.500000, 138.500000) scale(-1, 1) translate(-84.500000, -138.500000) " xlink:href="#path-9"></use>
+                <use id="Rectangle-11" mask="url(#mask-12)" stroke-width="2" opacity="0.9" xlink:href="#path-11"></use>
+                <path d="M110.5,277 L110.5,292" id="Path-238" opacity="0.9"></path>
+                <path d="M136.5,277 L136.5,292" id="Path-238-Copy" opacity="0.9"></path>
+            </g>
+        </g>
+    </g>
+</svg>
